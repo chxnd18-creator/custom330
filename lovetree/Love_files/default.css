@@ -32,26 +32,30 @@ a {
 }
 
 #text {
-	width: 400px;
-	left: 60px;
+	width: 420px;
+	left: 50%;
+	transform: translateX(-50%);
 	top: 20px;
 	bottom: 20px;
 	position: absolute;
 	display: flex;
-	align-items: flex-start;
+	align-items: center;
+	justify-content: center;
 	overflow-y: auto;
 	scrollbar-width: thin;
 	scrollbar-color: rgba(255,105,180,0.5) transparent;
 	direction: rtl;
+	text-align: center;
 }
 
 #code {
 	display: none;
-	font-size: 20px;
+	font-size: 24px;
 	color: #f0e6ff;
 	text-shadow: 0 0 12px rgba(255,150,180,0.6);
-	line-height: 1.7;
+	line-height: 1.8;
 	direction: ltr;
+	text-align: center;
 }
 
 #clock-box {
